@@ -5,6 +5,7 @@
 [![Documentation](https://docs.rs/cart_prod/badge.svg)][`cart_prod`/docs]
 [![License](https://img.shields.io/crates/l/cart_prod.svg)][`cart_prod`/license]
 [![Dependency Status](https://deps.rs/repo/github/JohnScience/cart_prod/status.svg)][`cart_prod`/dep_status]
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/JohnScience/cart_prod/rust.yml)
 
 At the moment of writing, this crate provides only [`Hom2FCartProd`] and [`Hom3FCartProd`] types, which are a two-fold and three-fold Cartesian products of iterators that are "homogenous" in the sense that they produce elements of the same type. Iterators of [`Hom2FCartProd`] allow to iterate over all distinct pairs `[x,y]` that can be formed from elements `x` and `y` of the original iterators. Similarly, [`Hom3FCartProd`] allows iteration over triples `[x,y,z]`. The order of the elements in the pairs is preserved.
 
