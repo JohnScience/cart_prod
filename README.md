@@ -36,7 +36,7 @@ assert!(it.next() == None);
 
 ### No variadic genericity
 
-Ideally, `Hom*FCartProd` should be types-aliases for a partial specializations of `CartProd` (variadic) generic type. However, Rust does not support variadic generics. See <https://github.com/rust-lang/rust/issues/10124>. For forward compatibility, the [`Hom2FCartProd`] and [`Hom3FCartProd`] types are defined in the [`cart_prod::specs`] module.
+Ideally, `Hom*FCartProd` should be types-aliases for partial specializations of `CartProd` (variadic) generic type. However, Rust does not support variadic generics. See <https://github.com/rust-lang/rust/issues/10124>. For forward compatibility, the [`Hom2FCartProd`] and [`Hom3FCartProd`] types are defined in the [`cart_prod::specs`] module.
 
 ### Workaround for absence of variadic genericity
 
